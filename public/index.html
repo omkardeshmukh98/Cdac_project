@@ -9,6 +9,34 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/style.css" />
+    <script src="%PUBLIC_URL%/assets/js/bootstrap.bundle.min.js" defer></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+      (function(d, s, id) {
+          if (d.getElementById(id)) {
+              if (window.__TOMORROW__) {
+                  window.__TOMORROW__.renderWidget();
+              }
+              return;
+          }
+          const fjs = d.getElementsByTagName(s)[0];
+          const js = d.createElement(s);
+          js.id = id;
+          js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+
+          fjs.parentNode.insertBefore(js, fjs);
+      })(document, 'script', 'tomorrow-sdk');
+      </script>
+    
+    <!-- <script src="%PUBLIC_URL%/assets/js/script.js" defer></script> -->
+
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a

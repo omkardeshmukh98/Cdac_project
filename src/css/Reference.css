@@ -1,0 +1,32 @@
+/* References.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .references-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .references-list li {
+    margin-bottom: 0.5rem;
+  }
+  
